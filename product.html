@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Wood Frame - Framestic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <span>Framestic</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#" class="active">Shop Frames</a>
+                <a href="#">Collections</a>
+                <a href="#">How It Works</a>
+                <a href="#">Reviews</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" class="icon-btn">Cart (0)</a>
+                <a href="#" class="icon-btn highlight">WhatsApp</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Breadcrumbs -->
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <a href="#">Shop Frames</a>
+                <span class="separator">/</span>
+                <span class="current">Classic Wood Frame</span>
+            </div>
+        </div>
+
+        <!-- Product Hero Section -->
+        <section id="product-hero">
+            <div class="container product-container">
+                <!-- Product Gallery -->
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="thumbnail-list">
+                        <div class="thumbnail active"></div>
+                        <div class="thumbnail"></div>
+                        <div class="thumbnail"></div>
+                        <div class="thumbnail"></div>
+                    </div>
+                </div>
+
+                <!-- Product Details -->
+                <div class="product-details">
+                    <div class="product-header">
+                        <h1 class="product-title">Classic Wood Frame</h1>
+                        <div class="product-meta">
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="review-count">(128 reviews)</span>
+                            </div>
+                            <div class="price-tag">$29.99</div>
+                        </div>
+                        <p class="short-description">
+                            Handcrafted from sustainable oak, this classic wood frame adds warmth and elegance to any
+                            room. Perfect for family portraits and art prints.
+                        </p>
+                    </div>
+
+                    <form class="product-form">
+                        <!-- Size Selector -->
+                        <div class="form-group">
+                            <label class="form-label">Select Size</label>
+                            <div class="size-selector">
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="small">
+                                    <span class="size-box">8x10"</span>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="medium" checked>
+                                    <span class="size-box">12x16"</span>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="large">
+                                    <span class="size-box">18x24"</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Color Selector -->
+                        <div class="form-group">
+                            <label class="form-label">Frame Color</label>
+                            <div class="color-selector">
+                                <label class="color-option">
+                                    <input type="radio" name="color" value="oak" checked>
+                                    <span class="color-circle" style="background-color: #d4a373;"></span>
+                                    <span class="color-name">Oak</span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="color" value="black">
+                                    <span class="color-circle" style="background-color: #2D2D2D;"></span>
+                                    <span class="color-name">Black</span>
+                                </label>
+                                <label class="color-option">
+                                    <input type="radio" name="color" value="white">
+                                    <span class="color-circle"
+                                        style="background-color: #F5F5F5; border: 1px solid #ddd;"></span>
+                                    <span class="color-name">White</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Upload Photo -->
+                        <div class="form-group">
+                            <label class="form-label">Upload Your Photo</label>
+                            <div class="upload-box">
+                                <div class="upload-icon">📁</div>
+                                <div class="upload-text">
+                                    <span>Click to upload</span> or drag and drop
+                                </div>
+                                <input type="file" hidden>
+                            </div>
+                        </div>
+
+                        <!-- Actions -->
+                        <div class="product-actions">
+                            <div class="quantity-selector">
+                                <button type="button" class="qty-btn">-</button>
+                                <input type="number" value="1" min="1" class="qty-input">
+                                <button type="button" class="qty-btn">+</button>
+                            </div>
+                            <button type="button" class="btn btn-primary add-to-cart-btn">Add to Cart</button>
+                        </div>
+                        <button type="button" class="btn btn-secondary buy-now-btn">Buy it now</button>
+                    </form>
+
+                    <div class="trust-badges">
+                        <div class="badge-item">
+                            <span class="badge-icon">🚚</span>
+                            <span>Free Shipping</span>
+                        </div>
+                        <div class="badge-item">
+                            <span class="badge-icon">🛡️</span>
+                            <span>2 Year Warranty</span>
+                        </div>
+                        <div class="badge-item">
+                            <span class="badge-icon">↩️</span>
+                            <span>30 Day Returns</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Info Tabs -->
+        <section id="product-info">
+            <div class="container">
+                <div class="tabs-header">
+                    <button class="tab-link active">Description</button>
+                    <button class="tab-link">Specifications</button>
+                    <button class="tab-link">Shipping & Returns</button>
+                </div>
+                <div class="tab-content">
+                    <div class="content-block">
+                        <h3>Premium Quality Materials</h3>
+                        <p>Our frames are made from sustainably sourced solid wood, ensuring durability and a premium
+                            feel. Each frame is hand-finished by expert craftsmen to guarantee perfection.</p>
+                        <p>We use museum-grade acrylic glazing that offers UV protection to keep your photos from fading
+                            over time, while being lighter and shatter-resistant compared to traditional glass.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <div class="container">
+                <div class="section-header text-center mb-lg">
+                    <h2>Customer Reviews</h2>
+                    <div class="rating-summary">
+                        <span class="stars">★★★★★</span>
+                        <span>4.9/5 based on 128 reviews</span>
+                    </div>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">S</div>
+                            <div class="reviewer-info">
+                                <h4>Sarah M.</h4>
+                                <span class="verified-badge">Verified Buyer</span>
+                            </div>
+                            <div class="review-date">2 days ago</div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Absolutely love this frame! The quality is outstanding and it arrived so quickly. Will
+                            definitely be ordering more."</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">J</div>
+                            <div class="reviewer-info">
+                                <h4>James P.</h4>
+                                <span class="verified-badge">Verified Buyer</span>
+                            </div>
+                            <div class="review-date">1 week ago</div>
+                        </div>
+                        <div class="stars">★★★★★</div>
+                        <p>"Perfect fit for my poster. The wood finish is exactly as described. Highly recommend!"</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-avatar">E</div>
+                            <div class="reviewer-info">
+                                <h4>Emily R.</h4>
+                                <span class="verified-badge">Verified Buyer</span>
+                            </div>
+                            <div class="review-date">2 weeks ago</div>
+                        </div>
+                        <div class="stars">★★★★☆</div>
+                        <p>"Great frame, but shipping took a day longer than expected. Otherwise, very happy with the
+                            purchase."</p>
+                    </div>
+                </div>
+                <div class="text-center mt-lg">
+                    <button class="btn btn-secondary">Load More Reviews</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section id="related-products" style="background-color: #f9f9f9;">
+            <div class="container">
+                <div class="section-header text-center mb-lg">
+                    <h2>You might also like</h2>
+                </div>
+                <div class="product-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="prod-img-placeholder"></div>
+                        <div class="prod-info">
+                            <h4>Modern Black Frame</h4>
+                            <div class="price">$24.99</div>
+                            <a href="#" class="btn btn-sm btn-primary">Customize</a>
+                        </div>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="prod-img-placeholder"></div>
+                        <div class="prod-info">
+                            <h4>Collage Frame</h4>
+                            <div class="price">$59.99</div>
+                            <a href="#" class="btn btn-sm btn-primary">Customize</a>
+                        </div>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="prod-img-placeholder"></div>
+                        <div class="prod-info">
+                            <h4>Floating Canvas</h4>
+                            <div class="price">$49.99</div>
+                            <a href="#" class="btn btn-sm btn-primary">Customize</a>
+                        </div>
+                    </div>
+                    <!-- Product 4 -->
+                    <div class="product-card">
+                        <div class="prod-img-placeholder"></div>
+                        <div class="prod-info">
+                            <h4>Metal Frame</h4>
+                            <div class="price">$34.99</div>
+                            <a href="#" class="btn btn-sm btn-primary">Customize</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="color: #fff; margin-bottom: 20px;">
+                        <div class="logo-icon" style="border-color: #fff;"></div>
+                        <span>Framestic</span>
+                    </div>
+                    <p>Custom wall frames for every occasion. Made with love and premium materials.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="#">All Frames</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#">FB</a>
+                        <a href="#">IG</a>
+                        <a href="#">WA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2024 Framestic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
